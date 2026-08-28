@@ -76,3 +76,20 @@ body {
     font-family:"Space Grotesk", serif ;
     color: white;
 }
+
+.skillbridge-box {
+  background: linear-gradient(135deg, #4a7c7c, #3a3a5c);
+  color: white;
+  padding: 40px;
+  border-radius: 12px;
+  font-family: 'Comic Sans MS', sans-serif; /* or whatever rounded font you're using */
+  line-height: 1.6;
+  max-width: 900px;
+}
+
+@media (max-width: 768px) {
+    .steps-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
